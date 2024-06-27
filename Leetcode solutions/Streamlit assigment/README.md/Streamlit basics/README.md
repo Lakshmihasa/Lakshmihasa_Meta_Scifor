@@ -65,7 +65,7 @@ st.write("Hello, Streamlit!")
 
 10)Can you describe the steps to deploy a Streamlit app?
 
-Ans: To deploy a Streamlit app, first install Streamlit with `pip install streamlit`. Then, write your app code in a file named `app.py`. In your terminal, navigate to the directory containing `app.py` and run `streamlit run app.py` to see it locally. For online deployment, push your code to a GitHub repository, go to streamlit cloud. sign in, and deploy by linking your GitHub repo. Your app will then be accessible online.
+Ans: To deploy a Streamlit app, first install Streamlit with "pip install Streamlit". Then, write your app code in a file named "app.py". In your terminal, navigate to the directory containing "app.py" and run "Streamlit run app.py" to see it locally. For online deployment, push your code to a GitHub repository, go to streamlit cloud. sign in, and deploy by linking your GitHub repo. Your app will then be accessible online.
 
 11)What is the purpose of the requirements.txt file in the context of Streamlit deployment?
 
