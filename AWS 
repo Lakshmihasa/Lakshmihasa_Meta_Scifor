@@ -1,0 +1,226 @@
+{
+  "nbformat": 4,
+  "nbformat_minor": 0,
+  "metadata": {
+    "colab": {
+      "provenance": [],
+      "toc_visible": true,
+      "authorship_tag": "ABX9TyM0d1olK+kCXaxtxWI+b9YH",
+      "include_colab_link": true
+    },
+    "kernelspec": {
+      "name": "python3",
+      "display_name": "Python 3"
+    },
+    "language_info": {
+      "name": "python"
+    }
+  },
+  "cells": [
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "view-in-github",
+        "colab_type": "text"
+      },
+      "source": [
+        "<a href=\"https://colab.research.google.com/github/Lakshmihasa/Lakshmihasa_Meta_Scifor/blob/main/AWS%20\" target=\"_parent\"><img src=\"https://colab.research.google.com/assets/colab-badge.svg\" alt=\"Open In Colab\"/></a>"
+      ]
+    },
+    {
+      "cell_type": "markdown",
+      "source": [
+        "**AWS BASICS**"
+      ],
+      "metadata": {
+        "id": "vOsWOhC0LCPO"
+      }
+    },
+    {
+      "cell_type": "markdown",
+      "source": [
+        "**what is AWS?**\n",
+        "\n",
+        "Answer : AWS stands for Amazon Web Services. It's a cloud platform by Amazon that provides various services like storage, computing power, and databases, allowing businesses to run applications without needing to manage physical servers"
+      ],
+      "metadata": {
+        "id": "wC8teZOYLEBw"
+      }
+    },
+    {
+      "cell_type": "markdown",
+      "source": [
+        "**Describe what AWS is and its significance in cloud computing.**\n",
+        "\n",
+        "Answer : AWS is a big player in cloud computing. It lets businesses store data, run applications, and access computing power over the internet, rather than having to own and maintain their own hardware. This makes it easier and cheaper to scale and manage applications"
+      ],
+      "metadata": {
+        "id": "fZHpssCaLKnH"
+      }
+    },
+    {
+      "cell_type": "markdown",
+      "source": [
+        "**Explain the key components of AWS architecture.**\n",
+        "\n",
+        "Answer : AWS is made up of different parts, including:\n",
+        "\n",
+        "Regions: These are different geographic areas where AWS has data centers.\n",
+        "\n",
+        "Availability Zones: Each region has multiple locations to keep services running even if one fails.\n",
+        "\n",
+        "Edge Locations: These are closer to users and help deliver content quickly."
+      ],
+      "metadata": {
+        "id": "K77QiytOLtNc"
+      }
+    },
+    {
+      "cell_type": "markdown",
+      "source": [
+        "**Discuss services like EC2, S3, RDS, and IAM.**\n",
+        "\n",
+        "Answer : EC2: A service that provides virtual servers for running applications.\n",
+        "\n",
+        "S3: A storage service where you can store and retrieve any amount of data.\n",
+        "\n",
+        "RDS: A managed database service that makes it easy to set up, operate, and scale databases.\n",
+        "\n",
+        "IAM: A security service that controls who can access AWS resources and what they can do with them."
+      ],
+      "metadata": {
+        "id": "9S6AO6z4NNa3"
+      }
+    },
+    {
+      "cell_type": "markdown",
+      "source": [],
+      "metadata": {
+        "id": "CyZqNpzEK8Oe"
+      }
+    },
+    {
+      "cell_type": "markdown",
+      "source": [
+        "**What are the benefits of using cloud computing with AWS?**\n",
+        "\n",
+        "Answer : Scalability: Easily adjust resources up or down based on demand.\n",
+        "\n",
+        "Flexibility: Choose from a wide range of services to fit your needs.\n",
+        "\n",
+        "Cost-efficiency: Only pay for what you use, with no upfront costs.\n",
+        "\n",
+        "Security: Benefit from AWS’s strong security measures to protect data."
+      ],
+      "metadata": {
+        "id": "oxV-gDF8Q2OR"
+      }
+    },
+    {
+      "cell_type": "markdown",
+      "source": [
+        "**How does AWS pricing work?**\n",
+        "\n",
+        "Answer : AWS pricing is based on a pay-as-you-go model, meaning you only pay for the services you use. There are also options for reserved instances, which offer discounts if you commit to using a service for a longer period, and a free tier that lets you use some services for free up to a certain limit."
+      ],
+      "metadata": {
+        "id": "dho5ENLRRGEy"
+      }
+    },
+    {
+      "cell_type": "markdown",
+      "source": [
+        "**Explain cloud computing models.**\n",
+        "\n",
+        "Answers : Infrastructure as a Service (IaaS): You rent IT infrastructure like servers and storage.\n",
+        "\n",
+        "Platform as a Service (PaaS): You get a platform to develop and manage applications without dealing with the underlying infrastructure.\n",
+        "\n",
+        "Software as a Service (SaaS): You use applications over the internet without worrying about installation or maintenance."
+      ],
+      "metadata": {
+        "id": "b8uuVgWjRUtr"
+      }
+    },
+    {
+      "cell_type": "markdown",
+      "source": [
+        "**Explain AWS Snowball.**\n",
+        "\n",
+        "Answer : AWS Snowball is a service that helps you move large amounts of data to AWS. You get a physical device, load your data onto it, and then send it back to AWS, where the data is uploaded to the cloud."
+      ],
+      "metadata": {
+        "id": "YisC3c2FSdmt"
+      }
+    },
+    {
+      "cell_type": "markdown",
+      "source": [
+        "**Explain Auto Scaling.**\n",
+        "\n",
+        "Answers : Auto Scaling automatically adjusts the number of servers you’re using based on demand. If traffic increases, more servers are added; if it decreases, servers are removed, ensuring optimal performance and cost-efficiency."
+      ],
+      "metadata": {
+        "id": "nbftetM4Sm_L"
+      }
+    },
+    {
+      "cell_type": "markdown",
+      "source": [
+        "**Explain AWS Lambda Service.**\n",
+        "\n",
+        "Answer : AWS Lambda lets you run code without provisioning or managing servers. You write your code, and Lambda automatically scales and runs it only when needed, so you only pay for the compute time you use."
+      ],
+      "metadata": {
+        "id": "VgouPrVmSvKY"
+      }
+    },
+    {
+      "cell_type": "markdown",
+      "source": [
+        "**Explain Load Balancing**\n",
+        "\n",
+        "Answer: Load Balancing in AWS is like a traffic cop for your website or application. It makes sure that incoming traffic (like users visiting your site) is evenly distributed across multiple servers. This helps to prevent any one server from getting overloaded, which keeps your website running smoothly and reliably. If one server is too busy, the load balancer sends new traffic to a less busy server, ensuring everything works efficiently."
+      ],
+      "metadata": {
+        "id": "HU_wmkTxS4UW"
+      }
+    },
+    {
+      "cell_type": "markdown",
+      "source": [
+        "\n",
+        "\n",
+        " **AWS Pricing: Pay-as-You-Go, Reserved Instances, and Free Tier**\n",
+        "\n",
+        "Answer :  Pay-as-You-Go: You only pay for what you use, just like your electricity bill. If you use more resources, you pay more; if you use less, you pay less. There are no long-term contracts or upfront costs.\n",
+        "\n",
+        "Reserved Instances: This is like getting a discount for making a long-term commitment. If you know you'll need certain resources for a long time (like a year or three), you can reserve them and get a lower price compared to pay-as-you-go.\n",
+        "\n",
+        "Free Tier: AWS offers some services for free for a limited time or up to a certain usage level. This is great for trying out AWS or running small projects without any cost."
+      ],
+      "metadata": {
+        "id": "mfNOBejzTRgl"
+      }
+    },
+    {
+      "cell_type": "markdown",
+      "source": [
+        "**Focus on scalability, flexibility, cost-efficiency, and security.**\n",
+        "\n",
+        "Answer : Benefits of Using AWS (Scalability, Flexibility, Cost-Efficiency, and Security):\n",
+        "\n",
+        "Scalability: AWS makes it easy to grow or shrink your resources as needed. If you suddenly get more visitors, you can quickly add more servers. If things slow down, you can reduce them to save money.\n",
+        "\n",
+        "Flexibility: AWS gives you lots of choices. Whether you're hosting a website, storing files, or running apps, you can pick the services that best fit what you’re doing.\n",
+        "\n",
+        "Cost-Efficiency: You only pay for what you actually use with AWS. No need to spend money on hardware you might not fully use. This helps keep costs down.\n",
+        "\n",
+        "Security: AWS keeps your data safe with strong security features like encryption and access controls. They regularly check and improve security to protect your information."
+      ],
+      "metadata": {
+        "id": "fOQU0o66TtfL"
+      }
+    }
+  ]
+}
